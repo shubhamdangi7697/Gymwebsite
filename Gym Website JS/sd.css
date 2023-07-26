@@ -1,0 +1,136 @@
+/* Reset default styles */
+/* ... (same as before) ... */
+
+/* Additional Styles for Improved Design */
+
+/* General Styling */
+body {
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  /* Header Styling */
+  nav {
+    background-color: #333;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .logo h1 {
+    font-family: "Abril Fatface", cursive;
+    font-size: 32px;
+    color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  ul li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  /* Main section Styling */
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #65c7f7, #3a89c9);
+    color: #fff;
+  }
+  
+  .mainText h1 {
+    font-family: "Catamaran", sans-serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .mainText h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  .mainText p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+  
+  .men {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Program section Styling */
+  .program {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .program h1 span {
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .ourProgram {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  
+  .crd {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .crd:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .crd img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  
